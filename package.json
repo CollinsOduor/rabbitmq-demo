@@ -1,0 +1,19 @@
+{
+  "name": "node_mq",
+  "version": "1.0.0",
+  "description": "Rabbit mq with node demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "rabbitmq"
+  ],
+  "author": "Collins Oduor",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
