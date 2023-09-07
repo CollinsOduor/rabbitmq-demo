@@ -4,7 +4,9 @@
   "description": "Rabbit mq with node demo",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+      "test": "mocha",
+      "coverage": "istanbul cover _mocha"
+  }
   },
   "keywords": [
     "rabbitmq"
@@ -18,7 +20,8 @@
     "winston": "^3.2.1"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.2.0"
+      "chai": "^4.2.0",
+      "mocha": "^7.2.0",
+      "istanbul": "^0.4.5"
   }
 }
